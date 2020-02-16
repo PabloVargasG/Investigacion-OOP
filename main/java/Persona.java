@@ -42,6 +42,14 @@ public abstract class Persona {
 
     public abstract void identificarse();
 
-    public abstract String stringtoString();
+    public void stringtoString(){
+        String name = this.getNombre();
+        String age = this.getEdad();
+        int ide = this.getId();
+
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(ide);
+    }
 }
 
