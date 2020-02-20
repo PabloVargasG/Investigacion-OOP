@@ -1,4 +1,8 @@
-public class Policia extends Persona{
+package oop.invest;
+
+import oop.invest.Persona;
+
+public class Policia extends Persona {
     protected String Rango;
     public Policia(){
         super();
@@ -14,7 +18,7 @@ public class Policia extends Persona{
 
     @Override
     public void identificarse() {
-        System.out.println("Oficial de Policia");
+        System.out.println("Oficial de oop.invest.Policia");
     }
 
 }

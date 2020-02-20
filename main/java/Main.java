@@ -1,3 +1,7 @@
+import oop.invest.Persona;
+import oop.invest.Policia;
+import oop.invest.Visitante;
+
 import java.util.ArrayList;
 
 public class Main {

@@ -1,6 +1,8 @@
 import org.junit.Test;
+import oop.invest.Persona;
+import oop.invest.Policia;
+import oop.invest.Visitante;
 
-import static org.junit.Assert.assertEquals;
 
 public class MarcadorJunitTest {
 

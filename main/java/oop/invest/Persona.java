@@ -1,3 +1,5 @@
+package oop.invest;
+
 public abstract class Persona {
     protected int id;
     protected String nombre;

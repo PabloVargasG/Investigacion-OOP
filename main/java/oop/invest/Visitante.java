@@ -1,4 +1,8 @@
-public class Visitante extends Persona{
+package oop.invest;
+
+import oop.invest.Persona;
+
+public class Visitante extends Persona {
 
     public Visitante(){
         super();
