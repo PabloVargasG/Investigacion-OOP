@@ -18,7 +18,7 @@ public class Policia extends Persona {
 
     @Override
     public void identificarse() {
-        System.out.println("Oficial de oop.invest.Policia");
+        System.out.println("Oficial Policia");
     }
 
 }

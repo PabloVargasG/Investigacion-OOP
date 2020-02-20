@@ -3,19 +3,29 @@ import oop.invest.Persona;
 import oop.invest.Policia;
 import oop.invest.Visitante;
 
+import java.util.ArrayList;
+
 
 public class MarcadorJunitTest {
-
-
-    public MarcadorJunitTest() {
-    }
 
     /**
      * Test
      */
     @Test
     public void testAdd() {
-        Main m = new Main();
+        ArrayList<Persona> personas = new ArrayList<Persona>();
+
+
+        Persona Pablo = new Visitante(117050903, "pablo", "21");
+        Persona Jorge = new Policia(117050903, "Jorge", "35", "Sargento");
+
+        personas.add(Pablo);
+        personas.add(Jorge);
+
+        for (Persona perso : personas) {
+            perso.identificarse();
+            perso.stringtoString();
+        }
 
     }
 }
